@@ -27,3 +27,11 @@ class producto{
 const producto1 = new producto("remera lisa","2000","XL");
 const producto2 = new producto("buzo canguro","3500","L");
 const producto3 = new producto("campera","5500","M");
+
+producto1.vender();
+
+if(vendido=true){
+    alert("producto1 vendido")
+}else {
+    alert("segui comprando")
+}
